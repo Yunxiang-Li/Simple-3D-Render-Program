@@ -49,15 +49,14 @@ I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for 
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/matrix%20for%20rotation.JPG"/> </div>
 
-then we have:
+Then we have:
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Simple%20projection.gif"/> </div>
 
 4. Now we need to start filling up those triangles with colors. To do this we need to rasterize the triangle - convert it to list of pixels on screen that it occupies.
 I choose rasterization via barycentric coordinates since it is easier to implement. The idea is to compute barycentric coordinate for each pixel that could possibly lie inside the triangle and discard those that are outside.
 
-However, the reasterization order will affect which triangle we will see in the end(sometimes I can only see the triangle below but cannot see the one above), This is because the triangle below may be reasterizated later. To fix this I use z-buffer (or depth buffer). The idea is to build an intermediate array during rasterization that will store each position's last time seen depth. When rasterizing triangles, I will check whether each position's current pixel depth is larger than previously seen, and only color the pixel if it is deeper(has larger depth which means closer to users).
-And after this, we have:
+However, the reasterization order will affect which triangle we will see in the end(sometimes I can only see the triangle below but cannot see the one above), This is because the triangle below may be reasterizated later. To fix this I use z-buffer (or depth buffer). The idea is to build an intermediate array during rasterization that will store each position's last time seen depth. When rasterizing triangles, I will check whether each position's current pixel depth is larger than previously seen, and only color the pixel if it is deeper(has larger depth which means closer to users). And after this, we have:
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Color%20projection.gif"/> </div>
 
