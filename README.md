@@ -9,9 +9,8 @@ A simple 3d render engine written by pure Java codes
 - [Background](#Background)
 - [Exhibition](#Exhibition)
 - [Install](#install)
-- [Usage](#usage)
-- [Structure](#Structure)
 - [Ideas](#Ideas)
+- [Structure](#Structure)
 - [Maintainers](#Maintainers)
 - [License](#license)
 
@@ -38,7 +37,7 @@ I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for 
 [Java Download](https://www.java.com/en/download/)<br>
 [IntelliJ IDEA Download](https://www.jetbrains.com/idea/download/#section=windows)<br>
 
-## Usage
+## Ideas
 
 1. Download this repo, open(or zip and open) the **Simple-3D-Render-Engine** folder.
 
@@ -50,31 +49,15 @@ I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for 
 
 The whole project in Unity contains two main folders, **Assets** folder and **Package** folder.
 
-Under **Assets** folder, there are altogether **11** subfolders:
+Under **src** folder, there are altogether **4** `java` classes:
 
-1. Animation folder: contains **8** animations we will use in this game including **fade in / out**, **platform movement** and so on.
+1. `Vertex` class represents a position in 3d space.
 
-2. Audio folder: contains **6** sound files we will use in this game including **Main Menu BGM**, **Click sound**, **Pause Game sound** and so on.
+2. `Triangle` class represents a triangle binding three vertices  together and stores its color.
 
-3. Fonts folder: contains **1** font we will use in this game(**Good Times** font).
+3. `Matrix3` class represents a 3D Matrix which will help us do matrix-matrix and vector-matrix multiplications.
 
-4. Materials folder: contains **11** materials we will use in this game including **Floor material**, **Gem material**, **Finish Game material** and so on.
-
-5. Objects folder: contains gem objects we will use in this game, there are also several sub folders(prefabs, gems and models) under this folder.
-
-6. Prefabs folder: contains **3** prefabs we will use in this game including **DoubleBaseBlock** and so on.
-
-7. Scences folder: contains **5** scenes, including **Main Menu Scene**, **Level 001**, **Credits** and so on.
-
-8. Scripts folder: contains all **16** customized C# scripts we need in this game demo. 
-
-9. SkyBox folder: contains skyboxes we need in this game demo. Download from the Unity Asset Store, you can download them [here](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-volume-2-nebula-3392).
-
-10. Textures folder: contains **8** textures, including **Floor texture**, **StartFinish texture** and so on.
-
-11. Unity-chan! folder: contains the character we need in this game demo. Download from the Unity Asset Store, you can download them [here](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705).
-
-## Ideas
+4. `DemoViewer` class is our main entrance of the render program, most of processes are made here.
 
 ## Maintainers
 
