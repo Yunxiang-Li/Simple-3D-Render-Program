@@ -17,17 +17,15 @@ A simple 3d render engine written by pure Java codes
 
 ## Background
 
-This is a very simple 3D platform game made by Unity3D Engine according to the [Jimmy vegas Unity Tutorials](https://jvunity.weebly.com/).
+3D render engines that are nowdays used in games. I write a very simple 3d render engine demo so that it will really help me understand some fundamental principles which are also used for modern render engines.
 
-In this game demo, user needs to go from the start position to the end position. User can control the character(Unity Chan in this game) walking and running by pressing (holding) **W, A, S, D** buttons or **arrow** buttons, jumping by pressing **E** button.
-
-There are several blocks and gems with different materials in this game, player can collect gems to gain scores. Gems with different color have different scores(**silver** for **500** score, green for **1000** score and **red** for **1500** score). If the player falls out of the platform then the player is dead.
-
-When the player goes to the end position successfully, total earned score is displayed, player position is freezed and a fade out effect appear and the level ends.
+Through making this render engine, I learn about orthographic projection, simple triangle rasterization, z-buffering, flat shading and subdividing a tetrahedron to a sphere.
 
 ## Exhibition
 
 ## Install
+
+I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for this project.
 
 [Java Download](https://www.java.com/en/download/)<br>
 [IntelliJ IDEA Download](https://www.jetbrains.com/idea/download/#section=windows)<br>
@@ -43,8 +41,6 @@ When the player goes to the end position successfully, total earned score is dis
 4. Note that a Unity Project is a collection of files and directories, rather than just one specific Unity Project file. To open a Project, you must select the main Project folder, rather than a specific file).
 
 5. For this game, just select the **Unity3D_A-Simple-3D-Platform-Game-Demo** folder and open this project.
-
-## Ideas
 
 ## Structure
 
@@ -73,6 +69,8 @@ Under **Assets** folder, there are altogether **11** subfolders:
 10. Textures folder: contains **8** textures, including **Floor texture**, **StartFinish texture** and so on.
 
 11. Unity-chan! folder: contains the character we need in this game demo. Download from the Unity Asset Store, you can download them [here](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705).
+
+## Ideas
 
 ## License
 
