@@ -11,6 +11,7 @@ A simple 3d render engine written by pure Java codes
 - [Install](#install)
 - [Usage](#usage)
 - [Structure](#Structure)
+- [Ideas](#Ideas)
 - [Maintainers](#Maintainers)
 - [License](#license)
 
@@ -42,6 +43,8 @@ When the player goes to the end position successfully, total earned score is dis
 4. Note that a Unity Project is a collection of files and directories, rather than just one specific Unity Project file. To open a Project, you must select the main Project folder, rather than a specific file).
 
 5. For this game, just select the **Unity3D_A-Simple-3D-Platform-Game-Demo** folder and open this project.
+
+## Ideas
 
 ## Structure
 
