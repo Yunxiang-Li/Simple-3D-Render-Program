@@ -53,7 +53,6 @@ Then we have:
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Simple%20projection.gif"/> </div>
 
-
 4. Now we need to start filling up those triangles with colors. To do this we need to rasterize the triangle - convert it to list of pixels on screen that it occupies.
 I choose rasterization via barycentric coordinates since it is easier to implement. The idea is to compute barycentric coordinate for each pixel that could possibly lie inside the triangle and discard those that are outside.
 
@@ -67,6 +66,10 @@ Here I will use simplest shading - flat shading. It takes into account only the 
 After this, we have:
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Shader%20projection.gif"/> </div>
+
+6. Finally, in order to change the tetrahedron to a sphere, we need to repeatedly subdivide each triangle into four smaller ones and keep inflating(here I choose to inflat 4 times for each triangle since my computer will become lag D:). Here is the final result:
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Final%20Sphere.gif"/> </div>
 
 ## Structure
 
