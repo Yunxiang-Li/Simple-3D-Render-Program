@@ -39,11 +39,15 @@ I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for 
 
 ## Ideas
 
-1. Download this repo, open(or zip and open) the **Simple-3D-Render-Engine** folder.
+1. First in main class `demoviewer`, using **Java AWT(Abstract Window Toolkit)** and **Java Swing** to create a GUI wrapper like this:
 
-2. Use IntelliJ or any other appropriate IDE to open **Simple-3D-Render-Engine** folder as a project.
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/GUI%20wrapper.png"/> </div>
 
-3. Find and run the `main` method under `DemoViewer.java` file to launch this simple 3d render program.
+2. Then I add two essential classes, `Vertex` and `Triangle`. Vertex is a simple structure which stores three coordinates (X, Y and Z), and triangle binds together three vertices and stores its color. 
+
+3. After that, I create a tetrahedron by creating a list of 4 triangles, display its orthographic projection in the screen and add rotation to two scroll bars. Here I assume that X coordinate means movement in left-right direction, Y means movement up-down on screen, and Z will be depth (so Z axis is perpendicular to our screen). Positive Z will mean "towards the observer". In order to add rotation, I use matrix-matrix multiplication in three planes:
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/matrix%20for%20rotation.JPG"/> </div>
 
 ## Structure
 
