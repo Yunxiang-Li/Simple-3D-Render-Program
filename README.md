@@ -61,7 +61,12 @@ And after this, we have:
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Color%20projection.gif"/> </div>
 
-5.
+5. Then I try to add light effect. In computer graphics, we can achieve similar effect by using "shading" - altering the color of the surface based on its angle and distance to lights.
+
+Here I will use simplest shading - flat shading. It takes into account only the angle between surface normal and direction of the light source. We just need to find cosine of angle between those two vectors and multiply the color by the resulting value. Such approach is very simple and cheap. First we need to compute the normal vector of each triangle. Then we need to calculate cosine between triangle normal and light direction. For simplicity, I will use directional light here(light is positioned directly behind the camera at some infinite distance).
+After this, we have:
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Shader%20projection.gif"/> </div>
 
 ## Structure
 
