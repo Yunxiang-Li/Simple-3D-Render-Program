@@ -53,8 +53,11 @@ then we have:
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Simple%20projection.gif"/> </div>
 
-4.
+4. Now we need to start filling up those triangles with colors. To do this we need to rasterize the triangle - convert it to list of pixels on screen that it occupies.
+I choose rasterization via barycentric coordinates since it is easier to implement. The idea is to compute barycentric coordinate for each pixel that could possibly lie inside the triangle and discard those that are outside.
+After this, we have:
 
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Color%20projection.gif"/> </div>
 
 ## Structure
 
