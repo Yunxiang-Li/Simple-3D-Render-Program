@@ -49,6 +49,13 @@ I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for 
 
 <div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/matrix%20for%20rotation.JPG"/> </div>
 
+then we have:
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Simple%20projection.gif"/> </div>
+
+4.
+
+
 ## Structure
 
 The whole project in Unity contains two main folders, **Assets** folder and **Package** folder.
