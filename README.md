@@ -23,6 +23,14 @@ Through making this render engine, I learn about orthographic projection, simple
 
 ## Exhibition
 
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Simple%20projection.gif"/> </div>
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Color%20projection.gif"/> </div>
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Shader%20projection.gif"/> </div>
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Simple-3D-Render-Engine/blob/main/Screenshots%20and%20GIFs/Final%20Sphere.gif"/> </div>
+
 ## Install
 
 I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for this project.
@@ -32,15 +40,11 @@ I Use Java language and IntelliJ IDEA (an IDE) under Windows 10 environment for 
 
 ## Usage
 
-1. Download this repo, open(or zip and open) the **Unity3D_A-Simple-3D-Platform-Game-Demo** folder.
+1. Download this repo, open(or zip and open) the **Simple-3D-Render-Engine** folder.
 
-2. Open the **Unity Hub**, from the Home Screen, click **Projects** to view the **Projects** tab.
+2. Use IntelliJ or any other appropriate IDE to open **Simple-3D-Render-Engine** folder as a project.
 
-3. To open an existing Unity Project stored on your computer, click the Project name in the **Projects** tab, or click **Open** to browse your computer for the Project folder.
-
-4. Note that a Unity Project is a collection of files and directories, rather than just one specific Unity Project file. To open a Project, you must select the main Project folder, rather than a specific file).
-
-5. For this game, just select the **Unity3D_A-Simple-3D-Platform-Game-Demo** folder and open this project.
+3. Find and run the `main` method under `DemoViewer.java` file to launch this simple 3d render program.
 
 ## Structure
 
@@ -71,6 +75,10 @@ Under **Assets** folder, there are altogether **11** subfolders:
 11. Unity-chan! folder: contains the character we need in this game demo. Download from the Unity Asset Store, you can download them [here](https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705).
 
 ## Ideas
+
+## Maintainers
+
+[@Yunxiang-Li](https://github.com/Yunxiang-Li).
 
 ## License
 
