@@ -1,7 +1,7 @@
 # Simple-3D-Render-Engine
 
 A simple 3d render engine written by pure Java codes
-a
+
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 ## Table of Contents
