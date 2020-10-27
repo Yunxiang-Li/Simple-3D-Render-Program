@@ -73,8 +73,6 @@ After this, we have:
 
 ## Structure
 
-The whole project in Unity contains two main folders, **Assets** folder and **Package** folder.
-
 Under **src** folder, there are altogether **4** `java` classes:
 
 1. `Vertex` class represents a position in 3d space.
