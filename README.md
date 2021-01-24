@@ -16,9 +16,9 @@ A simple 3d render program written by pure Java codes
 
 ## Background
 
-3D render engines that are nowdays used in games. I write a very simple 3d render engine demo so that it will really help me understand some fundamental principles which are also used for modern render engines.
+3D render engines that are nowdays used in games. I write a very simple 3d render program so that it will really help me understand some fundamental principles which are also used for modern render engines.
 
-Through making this render engine, I learn about orthographic projection, simple triangle rasterization, z-buffering, flat shading and subdividing a tetrahedron to a sphere.
+Through making this render program, I learned about orthographic projection, simple triangle rasterization, z-buffering, flat shading and subdividing a tetrahedron to a sphere.
 
 ## Exhibition
 
